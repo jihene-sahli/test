@@ -47,6 +47,19 @@
             </plugin>
         </plugins>
     </build>
+         
+   <distributionManagement>
+   <repository>
+       <id>Releases</id>
+       <name>releases</name>
+       <url>http://192.168.17.156:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshot repository>
+       <id>Releases</id>
+       <name>releases</name>
+       <url>http://192.168.17.156:8081/nexus/content/repositories/snapshots/</url>
+    </snapshot repository>
+</distributionManagement>
 
 
 </project>
